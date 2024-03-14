@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/style.css" />
+   
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Startup</a>
+                <a href="#">contact</a>
+            </div>
+            <div class="social">
+                <a href="https://github.com/mikalhart/TinyGPSPlus/blob/master/src/TinyGPS%2B%2B.h"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/accounts/onetap/?next=%2F&hl=en"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/feed/?trk=homepage-basic_sign-in-submit"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </nav>
+    </header>
+    <div class="hero">
+        <div class="text">
+            <h4>Pious K George</h4>
+            <h1>Welcome<br><span>Soilders!!</span></h1>
+            <p>
+                Timely, quality work.<br>
+                See projects merging tech and business.<br>
+                Let's bring ideas to life together.
+            </p>
+            <a href="#" class="btn">LE GEORGE</a>
+        </div>
+    </div>
+
+    <section>
+        <div class="about" id="About">
+            <div class="about-img">
+                <img src="./images2/cinema.jpg" class="abt-res">
+            </div>
+            <div class="about-text">
+                <h2>About <span>Me</span></h2>
+                <p>As a TN Startup winner and developer, I'm skilled in both tech and business. I lead my team with timely decisions and seize opportunities for success. My entrepreneurial spirit and innovation drive me forward. I'll keep pushing boundaries my potential knows no bounds.<br>
+                    <br>
+                    <a href="#" style="--i:11" class="abtbtn-box" target="_blank">Download Resume</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    
+    <script>
+         
+        let heroBg = document.querySelector('.hero');
+        setInterval(() => {
+            heroBg.style.backgroundImage = "url(images2/bg-light.jpg)";
+            setTimeout(() => {
+                heroBg.style.backgroundImage = "url(images2/bg.jpg)";
+            }, 1000);
+        }, 2200);
+    </script>
+
+
+    
+</body>
+
+</html>
